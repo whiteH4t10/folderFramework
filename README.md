@@ -4,9 +4,14 @@ folderFramework es una función en bash ideada para crear, de forma rápida y se
 
 # ¿Qué hace la herramienta?
 
-La herramienta va a ejecutar
+Al ejecutar el script se va a crear una carpeta raíz, que tendrá el nombre que el usuario le indique como parámetro, y dentro de la misma encontraremos una serie de subcarpetas ideadeas para ir almacenando las evidencias encontradas a lo largo del ciclo de explotación de una máquina.
+
+Subcarpetas:
+- Enumeration
+- Explotation
+- Privesc
+- Data
 
 # ¿Ejecución del script?
 
-folderFramework, para su ejecución, solo necesitará un parámetro de entrada que identifica el nombre de la máquina a explotar.
-
+./folderFramework <nombre_maquina_explotar>
